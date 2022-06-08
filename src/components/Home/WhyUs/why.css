@@ -1,0 +1,129 @@
+.main-why{
+    background: rgba(250, 250, 255, 1);
+    height: 778px;
+    width: 100%;
+    border-radius: 0px;
+    display: flex;
+}
+.why-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 86px;
+    margin-left: 90px;
+    margin-right: 57px;
+}
+.why-col1 h1{
+    height: 41px;
+    width: 210px;
+    margin-top: 68px;
+    font-family: DM Sans;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0.37400001287460327px;
+    text-align: left;
+    color: #060CA1;
+  
+}
+.why-col p{
+    height: 81px;
+    width: 404px;
+    margin-top: 30px;
+    color: rgba(1, 1, 14, 1);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.40799999237060547px;
+    text-align: left;
+}
+.check{
+    margin-top: 29px;
+}
+.check-col span{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+FaCheck{
+    height: 29.25714111328125px;
+    width: 29.25714111328125px;
+    margin-right: -4px;
+    padding-left: 4px;
+    padding-top: 5px;
+    border-radius: 0px;
+    background-color: #fff;
+    color: rgba(6, 12, 161, 1);
+    border-radius: 50%;
+    
+}
+.facheck{
+height: 32px;
+width: 32px;
+padding-left: 4.5px;
+padding-top: 5px;
+border: 1px solid rgba(6, 12, 161, 1);
+border-radius: 50%;
+margin-top: 10px;
+
+    
+}
+#spancol{
+    margin-left: -200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#spancol h3{
+    height: 30px;
+    width: 207px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.38px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+#spancol h6{
+    height: 21px;
+    width: 291px;
+    margin-top: -28px; 
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.32px;
+    text-align: left;
+    color: rgba(154, 153, 153, 1);
+    
+}
+#rel{
+    margin-top: 10px;
+}
+.bord1{
+    border: 0.5px dashed #060CA1;
+    height: 690px;
+    width: 690px;
+    border-radius: 50%;
+    padding-left: 53.0771484375px;
+    padding-top: 53.076904296875px;
+}
+.bord2{
+    border: 0.5px dashed #060CA1;
+    height: 583.8461303710938px;
+    width: 583.8461303710938px;
+    padding-left: 53.0771484375px;
+    padding-top: 53.076904296875px;
+    border-radius: 50%;
+}
+.bord3{
+    height: 477.69232177734375px;
+    width: 477.69232177734375px;
+    padding-left: 43.8px;
+    padding-top: 43.8px;
+    border: 0.5px dashed #060CA1;
+    border-radius: 50%;
+}
+.bord3 img{
+    width: 380px;
+    height: 380px;
+}

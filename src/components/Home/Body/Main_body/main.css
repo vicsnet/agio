@@ -1,0 +1,65 @@
+.main-body{
+    color: white;
+width: 100%;
+height: 1024px;
+    background-color: #01010E;
+
+background-image: url('../../../Images/Ellipse.png');
+background-repeat: no-repeat;
+background-position: right top;
+}
+
+.col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col1{
+    margin-left: 90px;
+    padding-top: 220px;
+    transition: 1s ease-in;
+}
+.col1 h1 {
+    height: 70px;
+    width: 219px;
+    /* //styleName: Huge Title/ Bold 60; */
+    font-family: DM Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+.col h2 {
+    height: 70px;
+    width: 705px;
+    margin-top: 11.5px;
+    font-family: DM Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+.col p {
+    height: 120px;
+    width: 542px;
+    margin-top: 53.5px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.3799999952316284px;
+    text-align: left;
+    transition: 1s ease-in;
+}
+.col2{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col2 .frame{
+    margin-top: 220px;
+    margin-left: -140px;
+}
