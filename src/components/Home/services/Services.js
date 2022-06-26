@@ -2,6 +2,7 @@ import React from "react";
 import "../services/service.css";
 import Frame4572 from "../../Images/Frame4572.png";
 import Frame4573 from "../../Images/Frame4573.png";
+import Frame45731 from "../../Images/Takecharge.png";
 import Group68 from "../../Images/Group68.png";
 
 function Services() {
@@ -10,19 +11,13 @@ function Services() {
       <header className="head">Our Services</header>
 
       <div className="service-col">
-        <div className="main-col">
-          <div className="service-col1">
-            <div className="circle1"></div>
-            <div className="circle2"></div>
-            <div className="im">
-              <img src={Frame4572} alt="" />
-            </div>
-
-            <div className="circle3"></div>
+        <div className="service-col1 services-col-1">
+          <div className="im im3">
+            <img src={Frame45731} alt="" />
           </div>
 
           <div className="service-col2">
-            <div className="details">
+            <div className="details2">
               <h3>Unparalleled International Shopping Experience</h3>
               <p>
                 Understanding the limits placed on your international shopping
@@ -35,9 +30,9 @@ function Services() {
           </div>
         </div>
 
-        <div className="main-col">
+        <div className="service-col1 service-col2 ">
           <div className="service-col2">
-            <div className=" details2">
+            <div className="details2">
               <h3>Take charge with our virtual card</h3>
               <p>
                 Pay utility bills directly from your wallet, Recharge Airtime,
@@ -48,22 +43,17 @@ function Services() {
               </p>
             </div>
           </div>
-          <div className="service-col1">
-            <div className="circle4"></div>
-            <div className="circle5"></div>
-            <div className="im im2">
-              <img src={Frame4573} alt="" />
-            </div>
-            <div className="circle6"></div>
+
+          <div className="im im3">
+            <img src={Group68} alt="" />
           </div>
         </div>
 
-        <div className="main-col">
-          <div className="service-col1">
-            <div className="im im3">
-              <img src={Group68} alt="" />
-            </div>
+        <div className="service-col1 service-col2 service-col3">
+          <div className="im im3">
+            <img src={Group68} alt="" />
           </div>
+
           <div className="service-col2">
             <div className="details2">
               <h3>Relax let us handle your logistics</h3>

@@ -1,0 +1,188 @@
+.main-main-subfooter{
+    width: 1209px;
+    height: 395px;
+    overflow: hidden;
+    left: 75px;
+    margin-bottom: -30px;
+    /* position: relative; */
+    /* position: relative; */
+}
+
+.main-subFooter{
+    background-image: url(../Images/CTA.png);
+    background-size: 1209px 395px;
+    
+   
+    
+}
+
+.text{
+    padding-top: 60px
+    /* height: 41px;
+    width: 560px;
+   
+    ; */
+       
+}
+.text h3{
+    margin-left: 325px;
+    height: 41px;
+        width: 580px;
+        
+    font-family: DM Sans;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0.37400001287460327px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.more-text{
+    height: 97px;
+    width: 661px;
+    margin-left: 274px;
+    margin-top: 26px;
+       
+}
+.more-text h3{
+    font-family: DM Sans;
+        font-size: 46px;
+        font-weight: 500;
+        line-height: 41px;
+        letter-spacing: 0.37400001287460327px;
+        text-align: center;
+        color: #FFFFFF;
+        transition: 1s ease-in-out;
+        
+}
+.store{
+        padding-left: 380px;
+       
+}
+.store img{
+    border-radius: 4px;
+}
+.im1{
+    margin-left: -35px;
+}
+.sub {
+    transition: 1s ease-in-out;
+}
+@media screen and (max-width: 940px) {
+    .main-main-subfooter {
+            width: 800px;
+            height: 395px;
+            margin-bottom: -30px;
+            margin-left: -25px;
+            
+        }
+    .main-subFooter {
+            
+            background-size: 800px 395px;
+            margin-left: 0px;
+    
+        }
+        .text h3{
+            height: 44px;
+            width: 400px;
+            font-size: 24px;
+            margin-left: 309px;
+        }
+        .more-text h3{
+            width: 400px;
+            font-size: 24px;
+            margin-top: -20px;
+        }
+        .store{
+            display: flex;
+            flex-direction: row;
+            margin-left: -180px;
+            margin-top: -10px;
+        }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-main-subfooter {
+            width: 680px;
+            height: 395px;
+            margin-bottom: -250px;
+            margin-left: -40px;
+    
+        }
+    
+        .main-subFooter {
+    
+            background-size: 680px 405px;
+            margin-left: 0px;
+    
+        }
+                .text h3 {
+                    height: 24px;
+                        width: 207px;
+                        /* left: 78px;
+                        top: 22px;
+                        border-radius: nullpx; */
+                       
+                            font-size: 16px;
+                          margin-left: 150px;
+                            line-height: 24px;
+                            
+                }
+        
+                .more-text h3 {
+                    height: 48px;
+                        width: 213px;
+                       
+                            font-size: 16px;
+                        
+                            line-height: 24px;
+                            letter-spacing: -0.40799999237060547px;
+                            text-align: center;
+                            margin-left: -125px;
+                }
+        
+                .store {
+                    /* padding-left: 15px; */
+                /* margin-left: 200px; */
+                }
+                .im1{
+                    padding-left: 15px;
+                }
+                .store img{
+                    height: 40px;
+                        width: 84.05015563964844px;
+                        margin-top: -30px;
+                        /* left: 179px;
+                        top: 120px;
+                        border-radius: 4px; */
+                }
+                .sub{
+                    margin-top: -40px;
+                    margin-left: 50px;
+                }
+}
+
+@media screen and (max-width: 600px) {
+    .main-main-subfooter {
+        margin-top: -230px;
+            width: 400px;
+            height: 395px;
+            margin-bottom: -30px;
+            margin-left: -25px;
+    
+        }
+    
+        .main-subFooter {
+    
+            background-size: 400px 395px;
+            margin-left: 0px;
+    
+        }
+        .sub{
+            margin-left: -35px;
+        margin-top: -50px;
+
+        }
+}

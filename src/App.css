@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titillium+Web:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap');
+
 *,
 *::after,
 *::before {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    
+    /* display: flex; */
+   
+}
+
+body{
+    width: 100%;
+    /* overflow-x: hidden; */
+    /* overflow: hidden; */
+    /* background: black; */
 }

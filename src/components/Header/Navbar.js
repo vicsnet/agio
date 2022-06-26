@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "../../Images/Logo.png";
 import { FaTimes, FaBars } from "react-icons/fa";
 // import { Link } from "react-router-dom";
-import "../Header/nav.css";
+import "./nav.css";
 function Navbar() {
   const [active, setActive] = useState("nav_menu");
   const [toggleIcon, setToggleIcon] = useState("nav_toggler");
